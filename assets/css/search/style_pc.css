@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* mv */
+.mv {
+  background-image: url(/assets/images/top/沖縄のふりー写真.jpeg); }
+
+.test {
+  font-size: 60px;
+  color: red; }
+
+.normal-text {
+  font-size: 25px;
+  text-align: center;
+  width: 250px;
+  padding: 12px;
+  background-color: #fffb00; }
