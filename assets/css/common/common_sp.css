@@ -1,0 +1,26 @@
+/* element */
+body {
+  position: relative;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #666;
+  padding-top: 50px;
+  padding-bottom: 80px; }
+
+a {
+  text-decoration: none;
+  color: #666; }
+
+section.content {
+  min-width: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+section.content .content_outer {
+  max-width: 100%;
+  min-width: calc($_content-sp-maxWidth - $_content-sp-sidePadding * 2);
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto; }
